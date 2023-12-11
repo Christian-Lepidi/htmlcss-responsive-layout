@@ -144,13 +144,15 @@
 
 .third{
     aspect-ratio: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
 
 .fa-file{
-  margin-top: 25px;
-  margin-left: 180px;
+  margin-top: 40px;
   font-size: 35px;
   color: rgb(27, 122, 181); 
 }
@@ -168,22 +170,19 @@
 }
 
 .fa-drafting-compass{
-    margin-top: 25px;
-    margin-left: 180px;
+    margin-top: 40px;
     font-size: 35px;
     color: rgb(27, 122, 181);
 }
 
 .fa-laptop{
-    margin-top: 25px;
-    margin-left: 180px;
+    margin-top: 40px;
     font-size: 35px;
     color: rgb(27, 122, 181);
 }
 
 .fa-bullhorn{
-    margin-top: 25px;
-    margin-left: 180px;
+    margin-top: 40px;
     font-size: 35px;
     color: rgb(27, 122, 181);
 }
