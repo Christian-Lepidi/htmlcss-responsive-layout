@@ -15,7 +15,7 @@
 .header{
     width: 100%;
     height: 60px;
-    background-color: rgb(70, 70, 235);
+    background-color: rgb(27, 122, 181);
 }
 
 .header-container{
@@ -32,7 +32,18 @@
 }
 
 .link{
-   display: block;
+   display: inline-block;
+   padding: 0 15px;
+   text-decoration: none;
+   color: white;
+}
+
+.button{
+    padding: 10px;
+    background-color: white;
+    color: rgb(19, 19, 19);
+    text-decoration: none;
+    border-radius: 25px;
 }
 
 .fa-bars{
@@ -71,7 +82,7 @@
 
 .card{
     width:100%;
-    min-height: 350px;
+    height:100%;
     background-color: rgb(161, 232, 232);
     border-radius: 15px;
 }
@@ -82,18 +93,20 @@
 }
 .card-left{
     width: 50%;
-    min-height: 310px;
+    min-height: 350px;
     border-radius: 15px;
 }
 
 .h2-demo{
-    margin-top: 40px;
+    margin-top: -10px;
     margin-left: 30px;
+    color:rgb(27, 122, 181);
 }
 
 .p-demo{
     margin-top: 40px;
     margin-left: 30px;
+    font-size: 18px;
 }
 
 .button-demo{
@@ -101,18 +114,78 @@
     margin-left: 30px;
 }
 
-.card-right{
-    width: 50%;
-    min-height: 310px;
-    border-radius: 15px;
+.but-dem{
+   padding: 15px;
+   text-decoration: none;
+   color: white;
+   font-size: 20px;
+   background-color:rgb(27, 122, 181);
+   border-radius: 25px;
+}
+
+.fa-apple{
+    padding: 10px;
+    color: white;
 }
 
 .demo-img{
-    width: 80%;
-    height: 60%;
+    width: 60%;
+    height: 40%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
+}
+
+.card-right{
+    width: 50%;
+    min-height: 300px;
+    border-radius: 15px;
+}
+
+.third{
+    aspect-ratio: 1;
+}
+
+
+
+.fa-file{
+  margin-top: 25px;
+  margin-left: 180px;
+  font-size: 35px;
+  color: rgb(27, 122, 181); 
+}
+
+.code{
+    margin-top: 25px;
+    text-align: center;
+    color: rgb(27, 122, 181);
+}
+
+.code-text{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.fa-drafting-compass{
+    margin-top: 25px;
+    margin-left: 180px;
+    font-size: 35px;
+    color: rgb(27, 122, 181);
+}
+
+.fa-laptop{
+    margin-top: 25px;
+    margin-left: 180px;
+    font-size: 35px;
+    color: rgb(27, 122, 181);
+}
+
+.fa-bullhorn{
+    margin-top: 25px;
+    margin-left: 180px;
+    font-size: 35px;
+    color: rgb(27, 122, 181);
 }
 
 /*FINE SEZIONE DEMO*/
@@ -272,6 +345,19 @@
 /*FINE FOOTER*/
 
 @media screen and (max-width: 768px) {
+    
+    .link{
+        display: none;  
+    }
+
+    .button{
+        display: none;
+    }
+
+    .fa-bars{
+        display: block;
+    }
+    
     .first{
         display: block;
     }
@@ -289,13 +375,6 @@
         width: 100%;
     }
 
-    .link{
-        display: none;  
-    }
-
-    .fa-bars{
-        display: block;
-    }
     .plan-container{
         flex-direction: column;
     }
