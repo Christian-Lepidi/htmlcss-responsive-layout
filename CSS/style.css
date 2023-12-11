@@ -71,7 +71,7 @@
 
 .card{
     width:100%;
-    min-height: 310px;
+    min-height: 350px;
     background-color: rgb(161, 232, 232);
     border-radius: 15px;
 }
@@ -141,6 +141,36 @@
 }
 
 /*FINE SEZIONE PLAN*/
+
+/*INIZIO SEZIONE TESTIMONIALS*/
+
+#testimonials{
+    width: 100%;
+}
+
+.testimonials-container{
+    width: 80%;
+    margin: auto;
+}
+
+.target{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.h2-test{
+  color: rgb(121, 76, 164);  
+}
+
+.testimonials-card{
+    width: 100%;
+    min-height: 180px;
+    background-color:rgb(121, 76, 164);
+    margin-top: 40px;
+    border-radius: 15px;
+}
+/*FINE SEZIONE TESTIMONIALS*/
+
 
 /*INIZIO SEZIONE BENEFITS*/
 
@@ -239,7 +269,7 @@
     margin-right: auto;
     background-color: coral;
 }
-
+/*FINE FOOTER*/
 
 @media screen and (max-width: 768px) {
     .first{
@@ -269,30 +299,17 @@
     .plan-container{
         flex-direction: column;
     }
+
+    .plan-column-left{
+        width: 100%;
+    }
+
+    .plan-column-right{
+        width: 100%;
+    }
+
+    .benefits-columns{
+        width: calc(100% / 2);
+    }
 }
 
-#testimonials{
-    width: 100%;
-}
-
-.testimonials-container{
-    width: 80%;
-    margin: auto;
-}
-
-.target{
-    text-align: center;
-    margin-top: 40px;
-}
-
-.h2-test{
-  color: rgb(121, 76, 164);  
-}
-
-.testimonials-card{
-    width: 100%;
-    min-height: 180px;
-    background-color:rgb(121, 76, 164);
-    margin-top: 40px;
-    border-radius: 15px;
-}
