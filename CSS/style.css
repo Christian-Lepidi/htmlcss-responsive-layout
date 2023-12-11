@@ -8,7 +8,7 @@
 
 /*debug*/
 .debug{
-    height: 300px;
+    min-height: 350px;
 }
 
 /*HEADER*/
@@ -44,6 +44,7 @@
 }
 /*FINE HEADER*/
 
+/*INIZIO SEZIONE DEMO*/
 .container{
     width: 80%;
     margin: auto;
@@ -70,6 +71,7 @@
 
 .card{
     width:100%;
+    min-height: 310px;
     background-color: rgb(161, 232, 232);
     border-radius: 15px;
 }
@@ -80,6 +82,7 @@
 }
 .card-left{
     width: 50%;
+    min-height: 310px;
     border-radius: 15px;
 }
 
@@ -100,18 +103,95 @@
 
 .card-right{
     width: 50%;
+    min-height: 310px;
     border-radius: 15px;
 }
 
 .demo-img{
     width: 80%;
     height: 60%;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
 }
 
-@media screen and (max-width:768px) {
+/*FINE SEZIONE DEMO*/
+
+/*INIZIO SEZIONE PLAN*/
+#plan{
+    width: 100%;
+    background-color: rgb(121, 76, 164);
+    margin-top: 40PX;
+}
+
+.plan-container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+
+.plan-column-left{
+    width: 50%;
+    background-color: orange;
+}
+
+.plan-column-right{
+    width: 50%;
+    background-color: lightgreen;
+}
+
+/*FINE SEZIONE PLAN*/
+
+/*INIZIO SEZIONE BENEFITS*/
+
+#benefits{
+    width: 100%;
+    background-color:rgb(121, 76, 164);
+    margin-top: 50px;
+}
+
+.h2-benefits{
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}
+
+.benefits-container{
+    width: 80%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+.row{
+    margin-left: -15px;
+    margin-right: -15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.benefits-columns{
+    width: calc(100% / 3);
+    padding: 15px;
+}
+
+.benefits-card{
+    min-height: 250px;
+    background-color: aquamarine;
+}
+
+
+@media screen and (max-width: 768px) {
     .first{
         display: block;
+    }
+
+    .card{
+        margin-top: 40px;
+        height: 100%;
     }
 
     .card-left{
@@ -129,25 +209,33 @@
     .fa-bars{
         display: block;
     }
+    .plan-container{
+        flex-direction: column;
+    }
 }
 
-#plan{
+#testimonials{
     width: 100%;
-    background-color: rgb(121, 76, 164);
 }
 
-.plan-container{
-    width: 70%;
+.testimonials-container{
+    width: 80%;
     margin: auto;
-    display: flex;
 }
 
-.plan-column-left{
-    width: 50%;
-    background-color: orange;
+.target{
+    text-align: center;
+    margin-top: 40px;
 }
 
-.plan-column-right{
-    width: 50%;
-    background-color: lightgreen;
+.h2-test{
+  color: rgb(121, 76, 164);  
+}
+
+.testimonials-card{
+    width: 100%;
+    min-height: 180px;
+    background-color:rgb(121, 76, 164);
+    margin-top: 40px;
+    border-radius: 15px;
 }
