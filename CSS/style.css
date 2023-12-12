@@ -558,10 +558,27 @@ li {
 .last-contents-container {
   width: 45%;
   height: 135px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
   margin-left: auto;
   margin-right: auto;
-  background-color: coral;
 }
+
+.footer-paragraph {
+  padding-top: 20px;
+  color: white;
+}
+
+.last-footer-paragraph {
+  color: white;
+}
+
+.last-link {
+  color: rgb(121, 76, 164);
+}
+
 /*FINE FOOTER*/
 
 @media screen and (max-width: 768px) {
@@ -638,6 +655,12 @@ li {
 
   .plan-card {
     width: 90%;
+  }
+
+  .testimonials-card {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .benefits-columns {
