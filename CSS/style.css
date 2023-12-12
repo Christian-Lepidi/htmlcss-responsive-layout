@@ -524,6 +524,27 @@
   border-radius: 25px;
 }
 
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.copyright-text {
+  color: white;
+  padding: 0 5px;
+}
+
+li {
+  display: inline;
+}
+
+.privacy {
+  color: white;
+}
+
 /*FINE SEZIONE STARTED*/
 
 /*INIZIO FOOTER*/
