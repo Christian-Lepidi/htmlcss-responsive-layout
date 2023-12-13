@@ -5,11 +5,6 @@
   box-sizing: border-box;
 }
 
-/*debug*/
-.debug {
-  min-height: 350px;
-}
-
 /*HEADER*/
 .header {
   width: 100%;
